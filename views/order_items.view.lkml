@@ -6,6 +6,10 @@ view: order_items {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+    link: {
+      label: "test"
+      url: "https://gcpl254.cloud.looker.com/dashboards/1"
+    }
   }
   dimension: inventory_item_id {
     type: number
