@@ -8,7 +8,7 @@ view: order_items {
     sql: ${TABLE}.id ;;
     link: {
       label: "test"
-      url: "https://gcpl254.cloud.looker.com/embed/dashboards/1"
+      url: "/dashboards/1"
     }
   }
   dimension: inventory_item_id {
